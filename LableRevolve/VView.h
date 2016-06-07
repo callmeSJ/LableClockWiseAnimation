@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VView.h
 //  LableRevolve
 //
 //  Created by SJ on 16/6/3.
@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VView.h"
 
-@interface ViewController : UIViewController
+@interface VView : UIView
 
 
 @end
-

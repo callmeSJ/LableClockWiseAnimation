@@ -15,6 +15,7 @@
 		33A1D9291D016A9300A2F4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1D9271D016A9300A2F4F7 /* LaunchScreen.storyboard */; };
 		33A1D9341D016A9300A2F4F7 /* LableRevolveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D9331D016A9300A2F4F7 /* LableRevolveTests.m */; };
 		33A1D93F1D016A9300A2F4F7 /* LableRevolveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D93E1D016A9300A2F4F7 /* LableRevolveUITests.m */; };
+		33A1D9501D01B53700A2F4F7 /* VView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D94F1D01B53700A2F4F7 /* VView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		33A1D93A1D016A9300A2F4F7 /* LableRevolveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LableRevolveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A1D93E1D016A9300A2F4F7 /* LableRevolveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LableRevolveUITests.m; sourceTree = "<group>"; };
 		33A1D9401D016A9300A2F4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1D94E1D01B53700A2F4F7 /* VView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VView.h; sourceTree = "<group>"; };
+		33A1D94F1D01B53700A2F4F7 /* VView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,9 @@
 		33A1D9181D016A9300A2F4F7 /* LableRevolve */ = {
 			isa = PBXGroup;
 			children = (
+				33A1D94C1D01B42900A2F4F7 /* C */,
 				33A1D91C1D016A9300A2F4F7 /* AppDelegate.h */,
 				33A1D91D1D016A9300A2F4F7 /* AppDelegate.m */,
-				33A1D91F1D016A9300A2F4F7 /* ViewController.h */,
-				33A1D9201D016A9300A2F4F7 /* ViewController.m */,
 				33A1D9221D016A9300A2F4F7 /* Main.storyboard */,
 				33A1D9251D016A9300A2F4F7 /* Assets.xcassets */,
 				33A1D9271D016A9300A2F4F7 /* LaunchScreen.storyboard */,
@@ -138,6 +140,25 @@
 				33A1D9401D016A9300A2F4F7 /* Info.plist */,
 			);
 			path = LableRevolveUITests;
+			sourceTree = "<group>";
+		};
+		33A1D94C1D01B42900A2F4F7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				33A1D91F1D016A9300A2F4F7 /* ViewController.h */,
+				33A1D9201D016A9300A2F4F7 /* ViewController.m */,
+				33A1D94D1D01B43000A2F4F7 /* V */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		33A1D94D1D01B43000A2F4F7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				33A1D94E1D01B53700A2F4F7 /* VView.h */,
+				33A1D94F1D01B53700A2F4F7 /* VView.m */,
+			);
+			name = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +294,7 @@
 				33A1D9211D016A9300A2F4F7 /* ViewController.m in Sources */,
 				33A1D91E1D016A9300A2F4F7 /* AppDelegate.m in Sources */,
 				33A1D91B1D016A9300A2F4F7 /* main.m in Sources */,
+				33A1D9501D01B53700A2F4F7 /* VView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
